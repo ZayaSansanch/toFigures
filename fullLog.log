@@ -86,3 +86,19 @@ Iterations: 25, Shapes in iteration: 250, Shapes generated: 6250
     Output image data: 
 ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
 
+    Input image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+    Start time: 1671441217389, End time: 1671441277544, Time taken: 60155 ms, 
+240 ms/shape (4 shapes/s), Seed: 977954937, 
+Iterations: 1, Shapes in iteration: 250, Shapes generated: 250
+    Output image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+    Input image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+    Start time: 1671441297893, End time: 1671441305481, Time taken: 7588 ms, 
+303 ms/shape (3 shapes/s), Seed: 907519946, 
+Iterations: 1, Shapes in iteration: 25, Shapes generated: 25
+    Output image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
