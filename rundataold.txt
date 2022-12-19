@@ -1,0 +1,11 @@
+Start time: 1671378894746, End time: 1671378896548, Time taken: 1802ms, 
+1802ms/shape (1 shapes/s) 
+, Seed: 611587167, Iterations: 1, Count of shapes: 1
+
+Start time: 1671379003849, End time: 1671379005621, Time taken: 1772ms, 
+1772ms/shape (1 shapes/s), 
+Seed: 611587167, Iterations: 1, Count of shapes: 1
+
+Start time: 1671379026454, End time: 1671379028229, Time taken: 1775ms, 
+1775ms/shape (1 shapes/s), Seed: 611587167, Iterations: 1, Count of shapes: 1
+

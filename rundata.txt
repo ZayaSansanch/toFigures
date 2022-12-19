@@ -1,0 +1,56 @@
+Start time: 1671379163160, End time: 1671379325551, Time taken: 162391ms, 
+129ms/shape (7 shapes/s), Seed: 53003621, Iterations: 25, Count of shapes: 50
+
+Start time: 1671379362860, End time: 1671379522013, Time taken: 159153ms, 
+127ms/shape (7 shapes/s), Seed: 591894426, Iterations: 50, Count of shapes: 25
+
+Start time: 1671379617105, End time: 1671379780415, Time taken: 163310ms, 
+130ms/shape (7 shapes/s), Seed: 717154221, Iterations: 50, Count of shapes: 25
+
+Start time: 1671379941229, End time: 1671380076522, Time taken: 135293ms, 
+135ms/shape (7 shapes/s), Seed: 551213842, Iterations: 5, Count of shapes: 200
+
+Start time: 1671420989147, End time: 1671420991040, Time taken: 1893ms, 
+1893ms/shape (1 shapes/s), Seed: 45372270, Iterations: 1, Count of shapes: 1
+
+Start time: 1671421016360, End time: 1671421018401, Time taken: 2041ms, 
+2041ms/shape (0 shapes/s), Seed: 515689196, Iterations: 1, Count of shapes: 1
+
+Start time: 1671421028384, End time: 1671421038309, Time taken: 9925ms, 
+198ms/shape (5 shapes/s), Seed: 47837386, Iterations: 1, Count of shapes: 50
+
+Start time: 1671421168056, End time: 1671421177666, Time taken: 9610ms, 
+192ms/shape (5 shapes/s), Seed: 611862348, Iterations: 1, Shapes in iteration: 50Shapes generated: 50
+
+Start time: 1671421251694, End time: 1671421266333, Time taken: 14639ms, 
+146ms/shape (7 shapes/s), 
+Seed: 838106256, Iterations: 2, Shapes in iteration: 50, Shapes generated: 100
+
+Start time: 1671421314559, End time: 1671421329457, Time taken: 14898ms, 
+148ms/shape (7 shapes/s), Seed: 
+953076541, Iterations: 2, Shapes in iteration: 50, Shapes generated: 100
+
+Start time: 1671421388386, End time: 1671421403317, Time taken: 14931ms, 
+149ms/shape (7 shapes/s), Seed: 980285628, 
+Iterations: 2, Shapes in iteration: 50, Shapes generated: 100
+
+Start time: 1671421573596, End time: 1671421575780, Time taken: 2184ms, 
+21ms/shape (50 shapes/s), Seed: 626855199, 
+Iterations: 2, Shapes in iteration: 50, Shapes generated: 100
+
+Start time: 1671421767039, End time: 1671421768587, Time taken: 1548ms, 
+15ms/shape (100 shapes/s), Seed: 730772204, 
+Iterations: 2, Shapes in iteration: 50, Shapes generated: 100
+
+Start time: 1671421974598, End time: 1671421975810, Time taken: 1212ms, 
+12ms/shape (100 shapes/s), Seed: 425516046, 
+Iterations: 2, Shapes in iteration: 50, Shapes generated: 100
+
+Start time: 1671421984396, End time: 1671421985499, Time taken: 1103ms, 
+11ms/shape (100 shapes/s), Seed: 697057138, 
+Iterations: 2, Shapes in iteration: 50, Shapes generated: 100
+
+Start time: 1671422103797, End time: 1671422372854, Time taken: 269057ms, 
+107ms/shape (9 shapes/s), Seed: 235034230, 
+Iterations: 50, Shapes in iteration: 50, Shapes generated: 2500
+

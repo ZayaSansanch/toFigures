@@ -1,0 +1,10 @@
+Input image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+Start time: 1671429478955, End time: 1671429481874, Time taken: 2919 ms, 
+291 ms/shape (5 shapes/s), Seed: 91313590, 
+Iterations: 1, Shapes in iteration: 10, Shapes generated: 10
+
+Output image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+

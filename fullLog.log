@@ -1,0 +1,88 @@
+Input image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+Start time: 1671422564805, End time: 1671422578176, Time taken: 13371ms, 
+133ms/shape (7 shapes/s), Seed: 563350171, 
+Iterations: 10, Shapes in iteration: 10, Shapes generated: 100
+
+Output image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+Input image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+Start time: 1671429641469, End time: 1671429644795, Time taken: 3326 ms, 
+332 ms/shape (3 shapes/s), Seed: 594579416, 
+Iterations: 1, Shapes in iteration: 10, Shapes generated: 10
+
+Output image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+Input image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+Start time: 1671429661189, End time: 1671429664007, Time taken: 2818 ms, 
+281 ms/shape (5 shapes/s), Seed: 24001151, 
+Iterations: 1, Shapes in iteration: 10, Shapes generated: 10
+
+Output image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+Input image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+Start time: 1671429794562, End time: 1671429797680, Time taken: 3118 ms, 
+311 ms/shape (3 shapes/s), Seed: 377891139, 
+Iterations: 1, Shapes in iteration: 10, Shapes generated: 10
+Output image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+  Input image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+   Start time: 1671429821353, End time: 1671429824675, Time taken: 3322 ms, 
+332 ms/shape (3 shapes/s), Seed: 522131578, 
+Iterations: 1, Shapes in iteration: 10, Shapes generated: 10
+  Output image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+  Input image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+   Start time: 1671429843394, End time: 1671429846504, Time taken: 3110 ms, 
+311 ms/shape (3 shapes/s), Seed: 43239497, 
+Iterations: 1, Shapes in iteration: 10, Shapes generated: 10
+  Output image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+    Input image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+    Start time: 1671429954451, End time: 1671429957483, Time taken: 3032 ms, 
+303 ms/shape (3 shapes/s), Seed: 709367396, 
+Iterations: 1, Shapes in iteration: 10, Shapes generated: 10
+    Output image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+    Input image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+    Start time: 1671430153019, End time: 1671430156163, Time taken: 3144 ms, 
+314 ms/shape (3 shapes/s), Seed: 906782695, 
+Iterations: 1, Shapes in iteration: 10, Shapes generated: 10
+    Output image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+    Input image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+    Start time: 1671430186757, End time: 1671430189914, Time taken: 3157 ms, 
+315 ms/shape (3 shapes/s), Seed: 239263569, 
+Iterations: 1, Shapes in iteration: 10, Shapes generated: 10
+    Output image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+    Input image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
+    Start time: 1671430304971, End time: 1671430975094, Time taken: 670123 ms, 
+107 ms/shape (9 shapes/s), Seed: 687844359, 
+Iterations: 25, Shapes in iteration: 250, Shapes generated: 6250
+    Output image data: 
+ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2
+
