@@ -30,6 +30,7 @@ public class Main {
         BufferedImage middle = new BufferedImage(input.getWidth(), input.getHeight(), input.getType());
 
         int iterations = 0;
+        int recreateIterations = 0;
         shape[] shapes = new shape[Integer.parseInt(properties.getProperty("Process.CountOfShapes"))];
 
         for (int x = 0; x < middle.getWidth(); x++) {
@@ -52,56 +53,66 @@ public class Main {
         }
         random.setSeed(seed);
 
-        shape bestShape = new shape();
         long startTime = System.currentTimeMillis();
-        while (iterations < Integer.parseInt(properties.getProperty("Process.Iterations"))) {
-            System.out.print("Iteration " + iterations + " - ");
-            for (int i = 0; i < shapes.length; i++) {
-                System.out.print(i + " ");
-                for (int x = 0; x < output.getWidth(); x++) {
-                    for (int y = 0; y < output.getHeight(); y++) {
-                        middle.setRGB(x, y, output.getRGB(x, y));
-                    }
-                }
-                shapes[i] = new shape();
-                random = shapes[i].random(input.getWidth(), input.getHeight(), random);
 
-                List<Point> polygon = new ArrayList<>();
-                polygon.add(new Point(shapes[i].getXPoints()[0], shapes[i].getYPoints()[0]));
-                polygon.add(new Point(shapes[i].getXPoints()[1], shapes[i].getYPoints()[1]));
-                polygon.add(new Point(shapes[i].getXPoints()[2], shapes[i].getYPoints()[2]));
-                polygon.add(new Point(shapes[i].getXPoints()[3], shapes[i].getYPoints()[3]));
-
-                score = 0;
-                for (int x = 0; x < input.getWidth(); x++) {
-                    for (int y = 0; y < input.getHeight(); y++) {
-                        Point point = new Point(x, y);
-                        if (PolygonUtils.isPointInsidePolygon(point, polygon)) {
-                            score += 255 + Math.abs(new Color(input.getRGB(x, y)).getRed() - shapes[i].getColor().getRed());
-                            score += 255 + Math.abs(new Color(input.getRGB(x, y)).getGreen() - shapes[i].getColor().getGreen());
-                            score += 255 + Math.abs(new Color(input.getRGB(x, y)).getBlue() - shapes[i].getColor().getBlue());
-                        }
-                    }
-                }
-                if (score > bestScore) {
-                    bestScore = score;
-                    bestShape = shapes[i];
-                }
+        shape[] bestShapes = new shape[shapes.length];
+        for (int i = 0; i < bestShapes.length; i++) {
+            for (int j = 0; j < bestShapes.length * Integer.parseInt(properties.getProperty("Process.ReCreateCountOfShapes")); j++) {
+                bestShapes[j] = new shape(input.getWidth(), input.getHeight(), random);
             }
-            System.out.println();
-
-            g2d = middle.createGraphics();
-            g2d.setColor(bestShape.color);
-            g2d.fillPolygon(bestShape.getXPoints(), bestShape.getYPoints(), bestShape.getNPoints());
-            g2d.dispose();
-
-            for (int x = 0; x < output.getWidth(); x++) {
-                for (int y = 0; y < output.getHeight(); y++) {
-                    output.setRGB(x, y, middle.getRGB(x, y));
-                }
-            }
-
-            iterations++;
+        }
+        
+        while (recreateIterations < Integer.parseInt(properties.getProperty("Process.ReCreateIterations"))) {
+//            shape bestShape = new shape();
+//            while (iterations < Integer.parseInt(properties.getProperty("Process.Iterations"))) {
+//                System.out.print("Iteration " + iterations + " - ");
+//                for (int i = 0; i < shapes.length; i++) {
+//                    System.out.print(i + " ");
+//                    for (int x = 0; x < output.getWidth(); x++) {
+//                        for (int y = 0; y < output.getHeight(); y++) {
+//                            middle.setRGB(x, y, output.getRGB(x, y));
+//                        }
+//                    }
+//                    shapes[i] = new shape();
+//                    random = shapes[i].random(input.getWidth(), input.getHeight(), random);
+//
+//                    List<Point> polygon = new ArrayList<>();
+//                    polygon.add(new Point(shapes[i].getXPoints()[0], shapes[i].getYPoints()[0]));
+//                    polygon.add(new Point(shapes[i].getXPoints()[1], shapes[i].getYPoints()[1]));
+//                    polygon.add(new Point(shapes[i].getXPoints()[2], shapes[i].getYPoints()[2]));
+//                    polygon.add(new Point(shapes[i].getXPoints()[3], shapes[i].getYPoints()[3]));
+//
+//                    score = 0;
+//                    for (int x = 0; x < input.getWidth(); x++) {
+//                        for (int y = 0; y < input.getHeight(); y++) {
+//                            Point point = new Point(x, y);
+//                            if (PolygonUtils.isPointInsidePolygon(point, polygon)) {
+//                                score += 255 + Math.abs(new Color(input.getRGB(x, y)).getRed() - shapes[i].getColor().getRed());
+//                                score += 255 + Math.abs(new Color(input.getRGB(x, y)).getGreen() - shapes[i].getColor().getGreen());
+//                                score += 255 + Math.abs(new Color(input.getRGB(x, y)).getBlue() - shapes[i].getColor().getBlue());
+//                            }
+//                        }
+//                    }
+//                    if (score > bestScore) {
+//                        bestScore = score;
+//                        bestShape = shapes[i];
+//                    }
+//                }
+//                System.out.println();
+//
+//                g2d = middle.createGraphics();
+//                g2d.setColor(bestShape.color);
+//                g2d.fillPolygon(bestShape.getXPoints(), bestShape.getYPoints(), bestShape.getNPoints());
+//                g2d.dispose();
+//
+//                for (int x = 0; x < output.getWidth(); x++) {
+//                    for (int y = 0; y < output.getHeight(); y++) {
+//                        output.setRGB(x, y, middle.getRGB(x, y));
+//                    }
+//                }
+//
+//                iterations++;
+//            }
         }
         long endTime = System.currentTimeMillis();
         long timeElapsed = endTime - startTime;
